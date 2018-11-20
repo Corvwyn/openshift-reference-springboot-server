@@ -19,6 +19,9 @@ logging:
             apache.catalina: WARN
             hibernate: WARN
 
+aurora.starter.requestbasedlogging:
+    enabled: true
+    wait: 30
 ---
 spring:
   profiles: local
